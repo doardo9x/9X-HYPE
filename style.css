@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rajdhani&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root{
+    --cor-Roxo-escuro: #192026;
+    --cor-Roxo-medio: #191825;
+    --cor-Roxo-claro: #865DFF;
+    --cor-Rosa-claro: #FFA3FD;
+    --font-logo:'Dancing Script', cursive;
+    --font-site:'Rajdhani', sans-serif;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+input{
+    border-radius: 20px;
+    width: 60%;
+}
+
+svg{
+    cursor: pointer;
+}
+
+img{
+    object-fit: scale-down;
+}
+
+.Tamanho-Img-DESTAQUE{
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    border-radius: 20px;
+}
+
+.Tamanho-Img-NAO-DESTAQUE{
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #191825;
+}
+
+#pagina{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--cor-Roxo-medio);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color:var(--cor-Roxo-escuro);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+#logo{
+    padding-top: 10px;
+    width: 20%;
+    height: 100%;
+    font-family: var(--font-logo);
+    color: var(--cor-Rosa-claro);
+}
+
+.titulo{
+    white-space: nowrap;
+}
+
+#barra-pesquisa{
+    width: 60%;
+    height: 100%;
+}
+
+#txtBusca{
+    padding-left: 10px;
+    padding-top: 2px;
+    font-family: var(--font-site);
+}
+
+#entrar-conta{
+    height: 100%;
+    width: 7%;
+    color: white;
+}
+
+#configuracao{
+    height: 100%;
+    width: 7%;
+    color: white;
+}
+
+#conteudo{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 350px;
+    background-color: #191825;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    #destaques{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    #cont-destaques{
+        width: 100%;
+    }
+
+    #roupas{
+        width: 100%;
+    }
+
+#header-Roupas{
+    color: var(--cor-Roxo-claro);
+    font-family: var(--font-site);
+    display: flex;
+    justify-content: end;
+    height: 55px;
+}
+
+#escrita-roupas{
+    border-bottom: 1px solid var(--cor-Roxo-claro);
+    width: 50%;
+    color: var(--cor-Rosa-claro);
+}
+
+#cont-destaque-roupas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destaque-roupa{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-destaque{
+    padding: 10px;
+    color: wheat;
+    width: rgb(255, 255, 255);
+    height: 60px;
+    flex-wrap: wrap;
+}
+
+.fs-4, .fs-5{
+    width: 100%;
+    height: 20px;
+    font-family: var(--font-site);
+}
+
+#cont-roupas-nao-destaque{
+    border-top: 1px solid var(--cor-Roxo-claro);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.produtos-nao-destaque{
+    color: white;
+    padding-top: 50 px;
+}
+
+.preco-nao-destaque{
+    padding: 5px;
+}
+
+    #Sneakers{
+        width: 100%;
+    }
+
+#header-Sneakers{
+    width: 50%;
+    height:55px;
+    border-bottom: 1px solid var(--cor-Roxo-claro);
+    color: var(--cor-Rosa-claro);
+    font-family: var(--font-site);
+}
+

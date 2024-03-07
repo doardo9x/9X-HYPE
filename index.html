@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9xHype</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div id="pagina">
+
+        <header>
+            <div id="logo" class="center-align">
+                <a href="index.html" class="reset-a">
+                    <p class="fs-1 titulo">9x Hype</p>
+                </a>
+            </div>
+
+            <div id="barra-pesquisa" class="center-align"> 
+                <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+            </div>
+
+            <div id="entrar-conta" class="center-align">
+                <a href="entrar-conta/index.html" class="reset-a">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40%" height="40%" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div id="configuracao" class="center-align">
+                <a href="configuracao/index.html" class="reset-a">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40%" height="40%" fill="currentColor" class="bi bi-sliders2-vertical" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M0 10.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H3V1.5a.5.5 0 0 0-1 0V10H.5a.5.5 0 0 0-.5.5ZM2.5 12a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5Zm3-6.5A.5.5 0 0 0 6 6h1.5v8.5a.5.5 0 0 0 1 0V6H10a.5.5 0 0 0 0-1H6a.5.5 0 0 0-.5.5ZM8 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2A.5.5 0 0 0 8 1Zm3 9.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1H14V1.5a.5.5 0 0 0-1 0V10h-1.5a.5.5 0 0 0-.5.5Zm2.5 1.5a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5Z"/>
+                    </svg>
+                </a>
+            </div>
+
+        </header>
+
+        <div id="conteudo">
+
+            <section id="destaques">
+                <div id="cont-destaques">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/Carousel Imgs/high.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carousel Imgs/carousel (3).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Carousel Imgs/carousel (2).jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+           
+
+            <section id="roupas">
+                
+                <div id="header-Roupas"> 
+                    <p  id="escrita-roupas" class="fs-1 center-align">Roupas</p>
+                </div>
+
+                <div id="cont-destaque-roupas" class="center-align"> 
+
+                    <div class="destaque-roupa center-align">
+                        <img src="img/Moletom High.jpeg" class="Tamanho-Img-DESTAQUE">
+
+                        <div class="price-destaque center-align">
+                            <p class="fs-4 center-align">Moletom High Company</p>
+                            <p class="fs-5 center-align">R$ xxx,xx</p>
+                        </div>
+                    </div>
+
+                    <div class="destaque-roupa center-align">
+                        <img src="img/Shorts HIGH.jpeg" class="Tamanho-Img-DESTAQUE">
+
+                        <div class="price-destaque center-align">
+                            <p class="fs-4 center-align">Shorts High Company</p>
+                            <p class="fs-5 center-align">R$ xxx,xx</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div id="cont-roupas-nao-destaque">
+                    <div class="produtos-nao-destaque">
+                        <img src="img/Camisa HIGH 1.jpeg" class="Tamanho-Img-NAO-DESTAQUE">
+                        <div class="preco-nao-destaque">
+                            <p class="fs-4 center-align">Camisa High Company</p>
+                            <p class="fs-5 center-align">R$ xxx,xx</p>
+                        </div>
+                    </div>
+
+                    <div class="produtos-nao-destaque">
+                        <img src="img/Camisa HIGH 2.jpeg" class="Tamanho-Img-NAO-DESTAQUE">
+                        <div class="preco-nao-destaque">
+                            <p class="fs-4 center-align">Camisa High Company</p>
+                            <p class="fs-5 center-align">R$ xxx,xx</p> 
+                        </div>
+                    </div>
+
+                    <div class="produtos-nao-destaque">
+                        <img src="img/Camisa HIGH 3.jpeg" class="Tamanho-Img-NAO-DESTAQUE">
+                        <div class="preco-nao-destaque">
+                            <p class="fs-4 center-align">Camisa High Company</p>
+                            <p class="fs-5 center-align">R$ 149,99</p>
+                        </div>
+                    </div>
+
+                    <div class="produtos-nao-destaque">
+                        <img src="img/Camisa HIGH 4.jpeg" class="Tamanho-Img-NAO-DESTAQUE">
+                        <div class="preco-nao-destaque">
+                            <p class="fs-4 center-align">Camisa High Company</p>
+                            <p class="fs-5 center-align">R$ 149,99</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Sneakers">
+                <div id="header-Sneakers">
+                    <p class="fs-1 center-align">Sneakers</p>
+                </div>
+
+
+            </section>
+    </div>  
+</body>
+</html>
