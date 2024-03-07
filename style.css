@@ -28,7 +28,6 @@
     color: inherit;
 }
 
-
 input{
     border-radius: 20px;
     width: 60%;
@@ -54,6 +53,20 @@ img{
     max-width: 250px;
     min-width: 250px;
     border-radius: 10px;
+}
+
+.Tamanho-Img-NAO-DESTAQUE-sneaker{
+    width: 100%;
+    max-width: 320px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+.Tamanho-Img-DESTAQUE-Sneaker{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 30px;
 }
 
 html, body{
@@ -131,9 +144,6 @@ header{
         padding-bottom: 50px;
     }
 
-    #cont-destaques{
-        width: 100%;
-    }
 
     #roupas{
         width: 100%;
@@ -153,7 +163,7 @@ header{
     color: var(--cor-Rosa-claro);
 }
 
-#cont-destaque-roupas{
+#cont-destaque{
     display: flex;
     flex-wrap: wrap;
 }
@@ -176,19 +186,19 @@ header{
     width: 100%;
     height: 20px;
     font-family: var(--font-site);
+    cursor: default;
 }
 
-#cont-roupas-nao-destaque{
+#cont-nao-destaque{
     border-top: 1px solid var(--cor-Roxo-claro);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .produtos-nao-destaque{
     color: white;
-    padding-top: 50 px;
 }
 
 .preco-nao-destaque{
@@ -200,10 +210,13 @@ header{
     }
 
 #header-Sneakers{
-    width: 50%;
+    margin-top: 50px;
+    width: 100%;
     height:55px;
-    border-bottom: 1px solid var(--cor-Roxo-claro);
+    border-top: 1px solid var(--cor-Roxo-claro);
     color: var(--cor-Rosa-claro);
     font-family: var(--font-site);
 }
+
+
 
